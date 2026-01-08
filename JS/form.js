@@ -75,17 +75,17 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault(); 
 
         if (!validarEmail(email.value)) {
-            alert("❌ E-mail inválido");
+            alert("E-mail inválido");
             return;
         }
 
         if (!validarTelefone(telefone.value)) {
-            alert("❌ Telefone inválido. Use (DD) 9xxxx-xxxx");
+            alert("Telefone inválido. Use (DD) 9xxxx-xxxx");
             return;
         }
 
         if (!validarCPF(cpf.value)) {
-            alert("❌ CPF inválido");
+            alert("CPF inválido");
             return;
         }
 
@@ -93,3 +93,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
