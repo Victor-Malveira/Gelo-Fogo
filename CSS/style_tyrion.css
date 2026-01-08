@@ -31,15 +31,6 @@ body {
     padding: 20px;
 }
 
-.media-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
 .tyrion {
     max-width: 250px;
     width: 100%;
